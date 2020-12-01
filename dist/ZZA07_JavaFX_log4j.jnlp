@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ZZA07_JavaFX_log4j.jnlp">
+  <information>
+    <title>ZZA07_JavaFX_log4j</title>
+    <vendor>meirb</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ZZA07_JavaFX_log4j.jar" size="28958" download="eager" />
+    <jar href="lib\log4j-1.2.17.jar" size="489884" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ZZA07_JavaFX_log4j" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="zza06_javafx.ZZA07_JavaFX_log4j"  name="ZZA07_JavaFX_log4j" />
+  <update check="always"/>
+</jnlp>
